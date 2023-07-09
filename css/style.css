@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color:rgb(34, 166, 153);
+    padding: 20px;
+}
+
+.primera-mayuscula ::first-letter{
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 200px;
+    margin-left:10px;
+}
+
+.nombre-emprendimiento{
+    color: rgb(19, 13, 34);
+    font-family: monospace;
+    margin-left: 35px;   
+}
+
+a {
+    color: rgb(31, 16, 32);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: xx-large;
+    font-weight:200px;
+    text-decoration: none;
+    font-family: monospace;
+    color: rgb(46, 28, 62);
+}
+
+a:link{
+    color: rgb(69, 181, 87);
+}
+
+a:visited{
+    color: rgb(186, 154, 13);
+}
+
+
+main {
+    background-color: rgb(196, 215, 178);
+    padding: 20px;
+}
+
+iframe{ margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: monospace;
+    color: rgb(46, 28, 62);
+    margin: 10px;
+}
+
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(46, 28, 62);
+    margin: 40px;
+    padding: 10px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article .que-hacer{
+    width: 1000px;
+    display: flex;
+    justify-content: center
+}
+
+.ver-mas{
+    text-decoration: none;
+    color: black;
+    font-size:xx-large
+}
+
+h4 {
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(46, 28, 62);
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.reservas{
+text-transform: uppercase;
+background-color: rgb(103, 170, 189);
+}
+
+
+.fecha-reserva {
+    margin: 40px;
+    padding: 10px;
+    border: double 
+}
+
+.container{
+    width: 100vw;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    background-color: rgb(34, 166, 153);
+    font-size: medium;
+    border: dotted rgb(50, 105, 105);
+    display: flex;
+}
+
+.hijo1-container{
+    flex-wrap: wrap;
+    padding: 8px;
+    text-align: start;
+}
+
+.hijo2-container{
+    flex-wrap: wrap;
+    padding: 8px;
+    text-align: start;
+}
+
+.hijo3-container{
+    flex-wrap: wrap;
+    padding: 8px;
+    text-align: start;
+}
+
+
+footer{
+    background-color: rgb(170, 200, 167);
+    padding: 20px;
+}
+
+.historia{
+    font-family: monospace;
+    font-size: large;
+}
+
+.video-nosotros{
+ margin-left: 400px;   
+}
+
+h5{
+    font-family: monospace;
+    font-size: large;
+    color: rgb(46, 28, 62);
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.autos div{
+    display: flex;
+ justify-content: center;
+}
+
+.titulos-paquetes{
+    font-family: monospace;
+    font-size: large;
+    color: rgb(46, 28, 62);
+    font-weight: bolder;
+}
+
+.info-paquetes{
+    font-family: monospace;
+    font-size: medium;
+    color: rgb(46, 28, 62);
+}
