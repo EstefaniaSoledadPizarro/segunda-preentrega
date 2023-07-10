@@ -4,49 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../Resources/Trekking.jpg">
+    <link rel="shortcut icon" href="./Resources/Trekking.jpg">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Nosotros</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Proyecto Turismo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
 <body>
+    <!-- Header -->
     <header>
-        <!-- Header -->
-        <img src="../Resources/Trekking.jpg" alt="Turismo">
-        <h1 class="nombre-emprendimiento">Baco Turismo</h1>
-        <hr>
-        <br>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../Pages/Nosotros.html">Nosotros</a></li>
-                <li><a href="../Pages/Paquetes.html">Paquetes</a></li>
-                <li><a href="../Pages/Vehiculos.html">Vehiculos</a></li>
-                <li><a href="../Pages/Galeria.html">Galeria</a></li>
-            </ul>
-        </nav>
+        <section>
+            <img class="logo" id="arriba" src="../Resources/Trekking.jpg" alt="turismo">
+            <h1>Baco turismo</h1>
+        </section>
+        <div class="primera-mayuscula">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="content-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pages/Nosotros.html">nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    paquetes
+                                </a>
+                                <ul class="dropdown-menu font-monospace">
+                                    <li><a class="dropdown-item" href="../Pages/Paquetes.html">alta montaña</a></li>
+                                    <li><a class="dropdown-item" href="../Pages/Paquetes.html">bodegas</a></li>
+                                    <li><a class="dropdown-item" href="../Pages/Paquetes.html">valle de uco</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pages/Vehiculos.html">vehiculos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pages/Galeria.html">galeria</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
+
+    <!-- Main -->
     <main>
-        <!-- Main -->
-        <h4>Nuestra historia</h4>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button text-uppercase font-monospace" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        nuestra historia
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong class="fw-semibold font-monospace">desde 2012</strong>
+                        <p class="fw-lighter">somos una empresa familiar, que desde hace mas de 10 años se
+                            dedicada al turismo en Mendoza, con el compromiso y responsabilidad de hacer cumplir los
+                            sueños
+                            y expectativas de los turistas desde el momento que llegan a la provincia, ofreciéndoles
+                            alojamiento, nuestros vehículos para el traslado y diversas actividades y circuitos
+                            turísticos
+                            que posee esta hermosa provincia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <article>
+            <iframe class="video-nosotros" width="560" height="300" src="https://www.youtube.com/embed/Qtfmp2Ro_mU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </article>
         <br>
-            <p class="historia">Somos una empresa familiar, que desde hace mas de 10 años se dedicada al turismo en Mendoza, con el compromiso y responsabilidad de hacer
-                cumplir
-                los sueños y expectativas de los turistas desde el momento que llegan a la provincia, ofreciéndoles
-                alojamiento,
-                nuestros vehículos para el traslado y diversas actividades y circuitos turísticos que posee esta hermosa
-                provincia.</p>
-            <iframe class="video-nosotros" width="560" height="300" src="https://www.youtube.com/embed/Qtfmp2Ro_mU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <br>
     </main>
+
     <footer>
         <!-- Footer -->
-        <a href="https://www.instagram.com/turismo.mendoza/?igshid=MzRlODBiNWFlZA%3D%3D">INSTAGRAM</a>
-        <a href="https://www.facebook.com/Turismo.Mza?mibextid=ZbWKwL">FACEBOOK</a>
+        <a href="https://instagram.com/turismo.mendoza?igshid=MzRlODBiNWFlZA==">📷</a>
+        <a href="https://www.facebook.com/Turismo.Mza?mibextid=ZbWKwL">📱</a>
+        <br>
+        <br>
+        <a href="#arriba">baco turismo</a>
     </footer>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
