@@ -51,7 +51,9 @@ main {
     padding: 20px;
 }
 
-iframe{ margin-left: 150px;
+
+iframe{ 
+    margin-left: 150px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
