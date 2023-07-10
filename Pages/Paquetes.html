@@ -4,70 +4,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../Resources/Trekking.jpg">
+    <link rel="shortcut icon" href="./Resources/Trekking.jpg">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Paquetes</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Proyecto Turismo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
 <body>
+    <!-- Header -->
     <header>
-        <!-- Header -->
-        <img src="../Resources/Trekking.jpg" alt="Turismo">
-        <h1 class="nombre-emprendimiento">Baco Turismo</h1>
-        <hr>
-        <br>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../Pages/Nosotros.html">Nosotros</a></li>
-                <li><a href="../Pages/Paquetes.html">Paquetes</a></li>
-                <li><a href="../Pages/Vehiculos.html">Vehiculos</a></li>
-                <li><a href="../Pages/Galeria.html">Galeria</a></li>
-            </ul>
-        </nav>
+        <section>
+            <img class="logo" id="arriba" src="../Resources/Trekking.jpg" alt="turismo">
+            <h1>Baco turismo</h1>
+        </section>
+        <div class="primera-mayuscula">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="content-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pages/Nosotros.html">nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    paquetes
+                                </a>
+                                <ul class="dropdown-menu font-monospace">
+                                    <li><a class="dropdown-item" href="../Pages/Paquetes.html">alta montaña</a></li>
+                                    <li><a class="dropdown-item" href="../Pages/Paquetes.html">bodegas</a></li>
+                                    <li><a class="dropdown-item" href="../Pages/Paquetes.html">valle de uco</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pages/Vehiculos.html">vehiculos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pages/Galeria.html">galeria</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
+    <!-- main -->
     <main>
-        <table>
+        <table class="paquetes-turisticos">
             <tr>
-                <td><img src="../Resources/Penitentes.jpg" alt=""></td>
-                <td><img src="../Resources/Bodegas.jpg" alt=""></td>
-                <td><img src="../Resources/ValleDeUco.jpg" alt=""></td>
+                <td class="img-1"><img src="../Resources/Penitentes.jpg" alt="montañas-nevadas"></td>
+                <td class="img-2"><img src="../Resources/Bodegas.jpg" alt="brindis-en-viñedo"></td>
+                <td class="img-3"><img src="../Resources/ValleDeUco.jpg" alt="montaña-y-viñas"></td>
             </tr>
             <tr class="titulos-paquetes" name="paquetes">
-                <td>Alta montaña</td>
-                <td>Bodegas</td>
-                <td>Valle de Uco</td>
+                <td class="paquete-1">alta montaña</td>
+                <td class="paquete-2">bodegas</td>
+                <td class="paquete-3">valle de uco</td>
             </tr>
             <tr class="info-paquetes">
-                <td>Recorre la legendaria Ruta 7 a través de los Andes con este tour de un día completo desde
+                <td class="info-1">Recorre la legendaria Ruta 7 a través de los Andes con este tour de un día completo
+                    desde
                     Mendoza.
                     Explora montañas con guía local, visitando sitios como el lago Potrerillos, Uspallata,
                     Penitentes, Puente del Inca, Las Cuevas y Parque Aconcagua para realizar impresionantes
                     fotografías.
-                    Disfruta del desayuno en Upsallata y un almuerzo tradicional de especialidades regionales como la
+                    Disfruta del desayuno en Upsallata y un almuerzo tradicional de especialidades
+                    regionales como la
                     trucha o la cabra.</td>
-                <td>Degusta los vinos de Mendoza con un tour privado. Recogiendote en la dirección que
-                    elijas en la ciudad de Mendoza y emprenderemos una excursión de un día completo a tres bodegas
-                    diferentes. Aprende sobre la elaboración del vino en Argentina durante las degustaciones guiadas y
+                <td class="info-2">Degusta los vinos de Mendoza con un tour privado. Recogiendote en la dirección que
+                    elijas en la ciudad de Mendoza y emprenderemos una excursión de un día completo a tres
+                    bodegas
+                    diferentes. Aprende sobre la elaboración del vino en Argentina durante las degustaciones
+                    guiadas y
                     completa la experiencia con un almuerzo gourmet.</td>
-                <td>A solo 90 minutos de Mendoza, el Valle de Uco se celebra internacionalmente por sus vinos de gran
-                    cuerpo. Disfruta del transporte privado desde Mendoza mientras tu guía comparte información sobre
+                <td class="info-3">A solo 90 minutos de Mendoza, el Valle de Uco se celebra internacionalmente por sus
+                    vinos de gran
+                    cuerpo. Disfruta del transporte privado desde Mendoza mientras tu guía comparte
+                    información sobre
                     esta
-                    pintoresca región vinícola. Tendrá la oportunidad de recorrer varios viñedos, degustar vinos locales
+                    pintoresca región vinícola. Tendrá la oportunidad de recorrer varios viñedos, degustar
+                    vinos locales
                     y
                     disfrutar de un almuerzo con maridajes antes de su regreso a Mendoza.</td>
             </tr>
         </table>
         <br>
     </main>
+
+    <!-- footer -->
     <footer>
-        <!-- !-- Footer -> -->
-        <a href="https://www.instagram.com/turismo.mendoza/?igshid=MzRlODBiNWFlZA%3D%3D">INSTAGRAM</a>
-        <a href="https://www.facebook.com/Turismo.Mza?mibextid=ZbWKwL">FACEBOOK</a>
+        <a href="https://instagram.com/turismo.mendoza?igshid=MzRlODBiNWFlZA==">📷</a>
+        <a href="https://www.facebook.com/Turismo.Mza?mibextid=ZbWKwL">📱</a>
+        <br>
+        <br>
+        <a href="#arriba">baco turismo</a>
     </footer>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
